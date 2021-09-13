@@ -1,4 +1,4 @@
-#netcatのリバースシェルを限りなく自由度を高くする。
+# netcatのリバースシェルを限りなく自由度を高くする。
 
 
 python -c 'import pty; pty.spawn("/bin/bash")'
