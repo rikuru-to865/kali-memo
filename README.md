@@ -1,4 +1,6 @@
 #netcatのリバースシェルを限りなく自由度を高くする。
+
+
 python -c 'import pty; pty.spawn("/bin/bash")'
 を実行し、ptyを呼び出したあと、ctrl+zで停止する。
 攻撃側pcでstty -aを実行しrowsとcolumnsを取得する。
